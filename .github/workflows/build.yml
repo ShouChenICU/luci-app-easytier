@@ -45,7 +45,7 @@ jobs:
           #- arm_mpcore
           # - arm_xscale
           # - mips_24kc
-          #- mips_4kec
+          # - mips_4kec
           # - mips_mips32
           # - mipsel_24kc
           # - mipsel_24kc_24kf
@@ -54,7 +54,7 @@ jobs:
           # - x86_64
           
         sdk:
-          - 24.10.4
+          - 25.12.2
           # - SNAPSHOT
 
     steps:
